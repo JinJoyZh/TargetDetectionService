@@ -19,6 +19,10 @@ public class MessageAttachmentVo {
     @TableField(exist =false)
     private String fileName;
 
+    @ApiModelProperty(value = "输出路径")
+    @TableField(exist =false)
+    private String outputPath;
+
     @TableField("process_time_")
     @JsonProperty("processTime")
     private LocalDateTime processTime;
@@ -65,5 +69,13 @@ public class MessageAttachmentVo {
 
     public void setProcessPerson(LocalDateTime processPerson) {
         this.processPerson = processPerson;
+    }
+
+    public String getOutputPath() {
+        return outputPath;
+    }
+
+    public void setOutputPath(String outputPath) {
+        this.outputPath = outputPath;
     }
 }

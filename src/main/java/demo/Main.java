@@ -18,6 +18,7 @@ public class Main {
         message.setFileType("IMG_DIR");
         message.setImageType("JPG");
         message.setFilePath("E:/TargetDetectionService/src/main/samples");
+        message.setOutputPath("C:/Users/jin_j/Desktop/tmp");
         ObjectMapper mapper = new ObjectMapper();
         String inputData = null;
         try {
@@ -50,7 +51,7 @@ public class Main {
             BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
 
             String output;
-            System.out.println("Output from Server .... \n");
+            System.out.println("Output from Flask .... \n");
             while ((output = br.readLine()) != null) {
                 System.out.println(output);
             }

@@ -136,4 +136,188 @@ public class TargetVo {
     @ApiModelProperty(value = "优先级")
     @TableField("priority_")
     private String priority;
+
+    public String getTargetName() {
+        return targetName;
+    }
+
+    public void setTargetName(String targetName) {
+        this.targetName = targetName;
+    }
+
+    public String getTargetType() {
+        return targetType;
+    }
+
+    public void setTargetType(String targetType) {
+        this.targetType = targetType;
+    }
+
+    public String getTargetCategory() {
+        return targetCategory;
+    }
+
+    public void setTargetCategory(String targetCategory) {
+        this.targetCategory = targetCategory;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getTargetAltitude() {
+        return targetAltitude;
+    }
+
+    public void setTargetAltitude(String targetAltitude) {
+        this.targetAltitude = targetAltitude;
+    }
+
+    public Integer getLocError() {
+        return locError;
+    }
+
+    public void setLocError(Integer locError) {
+        this.locError = locError;
+    }
+
+    public String getVelocity() {
+        return velocity;
+    }
+
+    public void setVelocity(String velocity) {
+        this.velocity = velocity;
+    }
+
+    public String getDirect() {
+        return direct;
+    }
+
+    public void setDirect(String direct) {
+        this.direct = direct;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public String getKeyPoints() {
+        return keyPoints;
+    }
+
+    public void setKeyPoints(String keyPoints) {
+        this.keyPoints = keyPoints;
+    }
+
+    public String getWorkStatus() {
+        return workStatus;
+    }
+
+    public void setWorkStatus(String workStatus) {
+        this.workStatus = workStatus;
+    }
+
+    public String getMaskStatus() {
+        return maskStatus;
+    }
+
+    public void setMaskStatus(String maskStatus) {
+        this.maskStatus = maskStatus;
+    }
+
+    public String getMaskType() {
+        return maskType;
+    }
+
+    public void setMaskType(String maskType) {
+        this.maskType = maskType;
+    }
+
+    public String getDamageStatus() {
+        return damageStatus;
+    }
+
+    public void setDamageStatus(String damageStatus) {
+        this.damageStatus = damageStatus;
+    }
+
+    public String getNearbyGuard() {
+        return nearbyGuard;
+    }
+
+    public void setNearbyGuard(String nearbyGuard) {
+        this.nearbyGuard = nearbyGuard;
+    }
+
+    public String getNearbyTerrain() {
+        return nearbyTerrain;
+    }
+
+    public void setNearbyTerrain(String nearbyTerrain) {
+        this.nearbyTerrain = nearbyTerrain;
+    }
+
+    public String getNationRegion() {
+        return nationRegion;
+    }
+
+    public void setNationRegion(String nationRegion) {
+        this.nationRegion = nationRegion;
+    }
+
+    public String getJxh() {
+        return jxh;
+    }
+
+    public void setJxh(String jxh) {
+        this.jxh = jxh;
+    }
+
+    public String getIff() {
+        return iff;
+    }
+
+    public void setIff(String iff) {
+        this.iff = iff;
+    }
+
+    public String getThreatLevel() {
+        return threatLevel;
+    }
+
+    public void setThreatLevel(String threatLevel) {
+        this.threatLevel = threatLevel;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    public void setPriority(String priority) {
+        this.priority = priority;
+    }
 }
