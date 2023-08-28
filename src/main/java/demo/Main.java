@@ -2,6 +2,7 @@ package demo;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import vo.MessageImageAttachmentVo;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -13,9 +14,10 @@ import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String args[]){
-        Message message    =   new Message();
-        message.setDataType("Images");
-        message.setDataPath("E:/tmp/LibTargetDetection/src/main/samples");
+        MessageImageAttachmentVo message = new MessageImageAttachmentVo();
+        message.setFileType("IMG_DIR");
+        message.setImageType("JPG");
+        message.setFilePath("E:/TargetDetectionService/src/main/samples");
         ObjectMapper mapper = new ObjectMapper();
         String inputData = null;
         try {

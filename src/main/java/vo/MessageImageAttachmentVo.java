@@ -14,4 +14,20 @@ public class MessageImageAttachmentVo extends MessageAttachmentVo {
     @TableField("image_technology_")
     @JsonProperty("imageTechnology")
     private String imageTechnology;
+
+    public String getImageType() {
+        return imageType;
+    }
+
+    public void setImageType(String imageType) {
+        this.imageType = imageType;
+    }
+
+    public String getImageTechnology() {
+        return imageTechnology;
+    }
+
+    public void setImageTechnology(String imageTechnology) {
+        this.imageTechnology = imageTechnology;
+    }
 }

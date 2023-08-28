@@ -26,4 +26,44 @@ public class MessageAttachmentVo {
     @TableField("process_person_")
     @JsonProperty("processPerson")
     private LocalDateTime processPerson;
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public LocalDateTime getProcessTime() {
+        return processTime;
+    }
+
+    public void setProcessTime(LocalDateTime processTime) {
+        this.processTime = processTime;
+    }
+
+    public LocalDateTime getProcessPerson() {
+        return processPerson;
+    }
+
+    public void setProcessPerson(LocalDateTime processPerson) {
+        this.processPerson = processPerson;
+    }
 }
